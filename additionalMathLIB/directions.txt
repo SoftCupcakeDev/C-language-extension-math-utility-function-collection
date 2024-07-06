@@ -1,0 +1,76 @@
+Library Overview:
+The additionalMathLIB provides a set of mathematical functions including division, sigmoid calculation, slope calculation, and random number generation.
+
+Functions:
+
+foun
+
+Description: Performs division of two numbers.
+Prototype: double foun(double numerator, double denominator);
+Parameters:
+numerator (double): The numerator for the division.
+denominator (double): The denominator for the division.
+Returns: The result of the division as a double.
+sigmoid
+
+Description: Calculates the sigmoid of a given value.
+Prototype: double sigmoid(double x);
+Parameters:
+x (double): The input value.
+Returns: The sigmoid of the input value as a double.
+slope
+
+Description: Calculates the slope between two points.
+Prototype: double slope(double x1, double x2, double y1, double y2);
+Parameters:
+x1 (double): The x-coordinate of the first point.
+x2 (double): The x-coordinate of the second point.
+y1 (double): The y-coordinate of the first point.
+y2 (double): The y-coordinate of the second point.
+Returns: The slope as a double.
+getRandom
+
+Description: Generates a random integer within a specified range.
+Prototype: int getRandom(int Range);
+Parameters:
+Range (int): The upper limit for the random number generation (exclusive).
+Returns: A random integer between 0 (inclusive) and Range (exclusive).
+
+
+라이브러리 개요:
+additionalMathLIB 라이브러리는 나눗셈, 시그모이드 계산, 기울기 계산 및 랜덤 숫자 생성을 포함한 수학 함수 모음을 제공합니다.
+
+함수:
+
+foun
+
+설명: 두 숫자의 나눗셈을 수행합니다.
+프로토타입: double foun(double numerator, double denominator);
+매개변수:
+numerator (double): 나눗셈의 분자.
+denominator (double): 나눗셈의 분모.
+반환값: 나눗셈 결과를 double로 반환.
+sigmoid
+
+설명: 주어진 값의 시그모이드를 계산합니다.
+프로토타입: double sigmoid(double x);
+매개변수:
+x (double): 입력 값.
+반환값: 입력 값의 시그모이드를 double로 반환.
+slope
+
+설명: 두 점 사이의 기울기를 계산합니다.
+프로토타입: double slope(double x1, double x2, double y1, double y2);
+매개변수:
+x1 (double): 첫 번째 점의 x-좌표.
+x2 (double): 두 번째 점의 x-좌표.
+y1 (double): 첫 번째 점의 y-좌표.
+y2 (double): 두 번째 점의 y-좌표.
+반환값: 기울기를 double로 반환.
+getRandom
+
+설명: 지정된 범위 내에서 랜덤 정수를 생성합니다.
+프로토타입: int getRandom(int Range);
+매개변수:
+Range (int): 랜덤 숫자 생성을 위한 상한 (배제됨).
+반환값: 0 (포함)에서 Range (배제) 사이의 랜덤 정수를 반환.
